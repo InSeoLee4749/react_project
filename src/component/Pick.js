@@ -1,35 +1,32 @@
 import React from "react";
 import pick from "../scss/pick.module.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation } from "swiper";
 
 export default function Pick(props) {
     return (
         <>
-            <div className="container">
+            <section>
                 <div>
-                    <div>
-                        <h2 className="text-center">BEST PICK</h2>
-                    </div>
-                    <div>
-                        <div className="d-flex pt-3">
-                            <div>
-                                <div>이미지1</div>
-                                <p>스트로베리 샤워 볼</p>
-                                <span>14,000</span>
-                            </div>
-                            <div>
-                                <div>이미지2</div>
-                                <p>스파이스드 오렌지</p>
-                                <span>14,000</span>
-                            </div>
-                            <div>
-                                <div>이미지3</div>
-                                <p>루시어스 리치 샤워</p>
-                                <span>14,000</span>
-                            </div>
-                        </div>
-                    </div>
+                    <h3 className="text-center">BEST PICK</h3>
                 </div>
-            </div>
+                <div className={`container p-0 ${pick.height}`}>
+                    <Swiper
+                        spaceBetween={30}
+                        centeredSlides={true}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        navigation={true}
+                        modules={[Pagination, Navigation]}
+                        className="mySwiper"
+                    >
+                        <SwiperSlide className={`${pick.sw1}`}>slide1</SwiperSlide>
+                        <SwiperSlide className={`${pick.sw2}`}>slide2</SwiperSlide>
+                        <SwiperSlide className={`${pick.sw3}`}>slide3</SwiperSlide>
+                    </Swiper>
+                </div>
+            </section>
         </>
     );
 }
