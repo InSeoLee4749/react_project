@@ -4,7 +4,12 @@ import news from "../scss/news.module.css";
 export default function News(props) {
     return (
         <>
-            <div>뉴스 컨텐츠입니다.</div>
+            <div className="container">
+                <div>
+                    <h3 className="text-center">THe Body Shop's NEWS</h3>
+                </div>
+                <div></div>
+            </div>
         </>
     );
 }

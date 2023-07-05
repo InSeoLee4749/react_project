@@ -1,4 +1,11 @@
-.height {
-    height: 300px;
-    justify-content: center;
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.from {
+    height: 100px;
+}
+.pw {
+    color: white;
 }
