@@ -9,7 +9,7 @@ p {
     margin: 0;
     padding: 0;
 }
-
+hd 파트 //
 #gnb {
     li {
         a {
@@ -32,8 +32,9 @@ p {
         }
     }
 }
-.flo{
-    background-image: url(../img/flooging.jpg);
+
+#basic-navbar-nav{
+    justify-content: center;
 }
 
 #basic-navbar-nav{
@@ -51,4 +52,12 @@ h1{
             height: 80px;
         }
     }
+}
+
+// contact 파트 //
+.flo{
+    background-image: url(../img/svg/flogging.svg);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    height: 400px;
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: "Noto Serif KR", serif;
 }
@@ -11,7 +12,7 @@ p {
   padding: 0;
 }
 
-#gnb li a {
+hd 파트 #gnb li a {
   color: #333;
   text-decoration: none;
   font-size: medium;
@@ -27,8 +28,8 @@ p {
   padding: 3px;
 }
 
-.flo {
-  background-image: url(../img/flooging.jpg);
+#basic-navbar-nav {
+  justify-content: center;
 }
 
 #basic-navbar-nav .navbar-nav ul {
@@ -40,4 +41,11 @@ h1 {
 }
 h1 a img {
   height: 80px;
+}
+
+.flo {
+  background-image: url(../img/svg/flogging.svg);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  height: 400px;
 }
