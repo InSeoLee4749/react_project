@@ -32,3 +32,23 @@ p {
         }
     }
 }
+.flo{
+    background-image: url(../img/flooging.jpg);
+}
+
+#basic-navbar-nav{
+    .navbar-nav{
+        ul{
+            display: flex;
+        }
+    }
+}
+
+h1{
+    text-align: center;
+    a{
+        img{
+            height: 80px;
+        }
+    }
+}

@@ -1,61 +1,31 @@
 import React from "react";
 import hd from "../scss/hd.module.css";
-import { Nav, Navbar, ScrollSpy } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
+import Scrollspy from 'react-scrollspy';
+
+
 
 export default function Hd(props) {
-    const hddata = {
-        gnb: [
-            {
-                title: "베스트 픽",
-                href: "bestpick",
-            },
-            {
-                title: "이벤트&캠페인",
-                href: "event",
-            },
-            {
-                title: "베스트 리뷰",
-                href: "bestreview",
-            },
-            {
-                title: "상담하기",
-                href: "talk",
-            },
-        ],
-    };
+
     return (
-        <header id="hd" className="fixed-top border-bottom bg-transform">
-            <div className="container px-0">
-                <div className="d-flex justify-content-between align-items-center">
-                    <h1>
-                        <a href="">
-                            <img
-                                className="align-items-center"
-                                src="./img/logo.png"
-                                alt=""
-                            />
-                        </a>
-                    </h1>
-                    <ul id="gnb" className="d-flex">
-                        {hddata.gnb.map(function (v, i) {
-                            return (
-                                <li className="px-4">
-                                    <a href={v.href} className="d-block">
-                                        {v.title}
-                                    </a>
-                                </li>
-                            );
-                        })}
-                    </ul>
-                    <ul className="sns d-flex">
-                        <li className="px-2">
-                            <a href="">유튜브</a>
-                            <a href="">인스타그램</a>
-                            <a href="">페이스북</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
+    <header>
+    <Navbar className="fixed-top d-block" expand="lg">
+        <Navbar.Brand as="h1"><a href="#top"><img src="./img/svg/The_Body_Shop_logo.svg"></img></a></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="">
+            <Scrollspy  currentClassName="active">
+                {
+                props.dbsrc.gnb.map( (v, x) =>{
+                    return  <li><Nav.Link href={"#"+v.href}>{v.title}</Nav.Link></li>
+                })  
+            
+                }
+            
+            </Scrollspy>
+        </Nav>
+        </Navbar.Collapse>
+    </Navbar>
+    </header>
     );
 }

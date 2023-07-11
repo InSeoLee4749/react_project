@@ -4,7 +4,7 @@ import solution from "../scss/solution.module.css";
 export default function Solution(props) {
     return (
         <>
-            <div className={`container bg-light`}>
+            <div className={`container bg-light`} id={props.idnm}>
                 <div className="d-flex justify-content-between p-1">
                     <div>
                         <div className="p-3">

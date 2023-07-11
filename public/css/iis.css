@@ -26,3 +26,18 @@ p {
   font-weight: bolder;
   padding: 3px;
 }
+
+.flo {
+  background-image: url(../img/flooging.jpg);
+}
+
+#basic-navbar-nav .navbar-nav ul {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+h1 a img {
+  height: 80px;
+}

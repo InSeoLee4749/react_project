@@ -4,7 +4,7 @@ import review from "../scss/review.module.css";
 export default function Review(props) {
     return (
         <>
-            <section>
+            <section  id={props.idnm}>
                 <div>
                     <h3 className="text-center">BEST REVIEW</h3>
                     <p className="text-center mt-1">직접 써보고 말하는 생생한 리얼 후기!</p>

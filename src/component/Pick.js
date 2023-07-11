@@ -6,7 +6,7 @@ import { Pagination, Navigation } from "swiper";
 export default function Pick(props) {
     return (
         <>
-            <section>
+            <section id={props.idnm}>
                 <div className="mt-5">
                     <div>
                         <h3 className="text-center">BEST PICK</h3>

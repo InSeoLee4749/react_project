@@ -8,15 +8,16 @@ import Review from "../component/Review";
 import Contact from "../component/Contact";
 
 export default function Content(props) {
+    console.log(props.dbsrc.gnb)
     return (
         <>
             <Banner></Banner>
             <Solution></Solution>
-            <Pick></Pick>
+            <Pick  idnm={props.dbsrc.gnb[0].href}></Pick>
             <Youtube></Youtube>
-            <News></News>
-            <Review></Review>
-            <Contact></Contact>
+            <News  idnm={props.dbsrc.gnb[1].href}></News>
+            <Review  idnm={props.dbsrc.gnb[2].href}></Review>
+            <Contact  idnm={props.dbsrc.gnb[3].href}></Contact>
         </>
     );
 }
