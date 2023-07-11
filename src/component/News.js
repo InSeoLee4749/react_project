@@ -6,7 +6,7 @@ import { Pagination, Navigation } from "swiper";
 export default function News(props) {
     return (
         <>
-            <div className="container">
+            <div className={`container mt-5 ${news.news}`}>
                 <div>
                     <h3 className="text-center">THe Body Shop's NEWS</h3>
                 </div>

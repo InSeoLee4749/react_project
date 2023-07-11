@@ -7,5 +7,14 @@ a {
     height: 100px;
 }
 .pw {
+    margin-top: 10px;
     color: white;
+}
+
+.reimg{
+    margin-top: 10px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    border: 1px solid;
 }

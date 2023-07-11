@@ -7,25 +7,28 @@ export default function Pick(props) {
     return (
         <>
             <section>
-                <div>
-                    <h3 className="text-center">BEST PICK</h3>
+                <div className="mt-5">
+                    <div>
+                        <h3 className="text-center">BEST PICK</h3>
+                    </div>
+                    <div className={`container p-0 ${pick.height}`}>
+                        <Swiper
+                            spaceBetween={30}
+                            centeredSlides={true}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            navigation={true}
+                            modules={[Pagination, Navigation]}
+                            className="mySwiper"
+                        >
+                            <SwiperSlide className={`${pick.sw1}`}>slide1</SwiperSlide>
+                            <SwiperSlide className={`${pick.sw2}`}>slide2</SwiperSlide>
+                            <SwiperSlide className={`${pick.sw3}`}>slide3</SwiperSlide>
+                        </Swiper>
+                    </div>
                 </div>
-                <div className={`container p-0 ${pick.height}`}>
-                    <Swiper
-                        spaceBetween={30}
-                        centeredSlides={true}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        navigation={true}
-                        modules={[Pagination, Navigation]}
-                        className="mySwiper"
-                    >
-                        <SwiperSlide className={`${pick.sw1}`}>slide1</SwiperSlide>
-                        <SwiperSlide className={`${pick.sw2}`}>slide2</SwiperSlide>
-                        <SwiperSlide className={`${pick.sw3}`}>slide3</SwiperSlide>
-                    </Swiper>
-                </div>
+                
             </section>
         </>
     );

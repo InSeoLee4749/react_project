@@ -1,7 +1,8 @@
 import React from "react";
 import hd from "../scss/hd.module.css";
+import { Nav, Navbar, ScrollSpy } from 'react-bootstrap';
 
-export default function Ft(props) {
+export default function Hd(props) {
     const hddata = {
         gnb: [
             {
@@ -30,7 +31,7 @@ export default function Ft(props) {
                         <a href="">
                             <img
                                 className="align-items-center"
-                                src="./img/logo.jpg"
+                                src="./img/logo.png"
                                 alt=""
                             />
                         </a>
@@ -38,7 +39,7 @@ export default function Ft(props) {
                     <ul id="gnb" className="d-flex">
                         {hddata.gnb.map(function (v, i) {
                             return (
-                                <li className="px-2">
+                                <li className="px-4">
                                     <a href={v.href} className="d-block">
                                         {v.title}
                                     </a>
