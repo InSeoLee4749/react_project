@@ -12,7 +12,7 @@ export default function News(props) {
                         <h3 className="text-center">THe Body Shop's NEWS</h3>
                     </div>
                     <div>
-                        <div className={`container p-0 ${news.height}`}>
+                        <div className={`container p-0 mt-1 ${news.height}`}>
                             <Swiper
                                 spaceBetween={30}
                                 centeredSlides={true}
@@ -23,9 +23,23 @@ export default function News(props) {
                                 modules={[Pagination, Navigation]}
                                 className="mySwiper"
                             >
-                                <SwiperSlide className={`${news.sw1}`}></SwiperSlide>
-                                <SwiperSlide className={`${news.sw2}`}></SwiperSlide>
-                                <SwiperSlide className={`${news.sw3}`}></SwiperSlide>
+                                <SwiperSlide className={`${news.sw1}`}>
+                                    <div className="d-flex justify-content-between align-items-center bg-white">
+                                        <div className={`${news.ment}`}>
+                                            <p>플라스틱 공병 수거 캠페인</p>
+                                            <p>지구와 나를 위한 작은 실천 #ReturnRecycleRepeat</p>
+                                        </div>
+                                        <div className={`${news.sw1img}`}>
+                                            <img className={`${news.recy}`} src="./img/recycling.png" alt="" />
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide className={`${news.sw2}`}>
+
+                                </SwiperSlide>
+                                <SwiperSlide className={`${news.sw3}`}>
+
+                                </SwiperSlide>
                             </Swiper>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ p {
     margin: 0;
     padding: 0;
 }
-hd 파트 //
+// hd 파트
 #gnb {
     li {
         a {
@@ -32,15 +32,41 @@ hd 파트 //
         }
     }
 }
+// .hd.active{
+//     transform: translateY(-100%);
+// }
+// .hd{
+//     transform: translateY(0);
+//     transition: 0.5s;
+// }
+
+
+
+
+
+
 
 #basic-navbar-nav{
     justify-content: center;
+    margin-top: 5px;
 }
 
 #basic-navbar-nav{
     .navbar-nav{
         ul{
             display: flex;
+        }
+    }
+}
+#basic-navbar-nav{
+    .navbar-nav{
+        a{
+            margin-top: 3px;
+            padding: 0 18px;
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1;
         }
     }
 }
@@ -60,4 +86,7 @@ h1{
     background-repeat: no-repeat;
     opacity: 0.5;
     height: 400px;
+}
+.flotext{
+    text-align: center;
 }
