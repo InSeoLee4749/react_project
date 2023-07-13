@@ -1,6 +1,8 @@
-* {
-    font-family: "Noto Serif KR", serif;
+
+body{
+    font-family:"NotoSansKR-DemiLight-Hestia";
 }
+
 ul,
 h1,
 h2,
@@ -9,46 +11,39 @@ p {
     margin: 0;
     padding: 0;
 }
+
 // hd 파트
-#gnb {
-    li {
-        a {
-            color: #333;
-            text-decoration: none;
-            font-size: medium;
-            font-weight: bolder;
-            padding: 2px;
+#hd{
+    position: fixed;
+    z-index: 10000;
+    left:0; right:0;
+    top:0;
+    transition: 0.5s;
+    h1{
+        transition: 0.5s;
+    }
+    &.scrolldown{
+        background-color: rgba(255,255,255,.85);
+        h1{
+            height: 31px;
+            img{
+                height: 70px;
+                margin-top: -63px;
+            }
         }
+        .navbar-nav{
+            a{
+                font-size: 14px;
+            }
+        }
+
     }
 }
-.sns {
-    li {
-        a {
-            color: #333;
-            text-decoration: none;
-            font-size: medium;
-            font-weight: bolder;
-            padding: 3px;
-        }
-    }
-}
-// .hd.active{
-//     transform: translateY(-100%);
-// }
-// .hd{
-//     transform: translateY(0);
-//     transition: 0.5s;
-// }
-
-
-
-
-
-
 
 #basic-navbar-nav{
     justify-content: center;
     margin-top: 5px;
+    padding-bottom: 5px;
 }
 
 #basic-navbar-nav{
@@ -62,20 +57,23 @@ p {
     .navbar-nav{
         a{
             margin-top: 3px;
-            padding: 0 18px;
+            padding: 0 15px;
             display: block;
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 500;
             line-height: 1;
+            letter-spacing: -0.085em;
         }
     }
 }
 
 h1{
     text-align: center;
+    transition: 0.5s;
     a{
         img{
-            height: 80px;
+            height: 55px;
+            transition: 0.5s;
         }
     }
 }
@@ -90,3 +88,5 @@ h1{
 .flotext{
     text-align: center;
 }
+
+

@@ -1,5 +1,5 @@
-* {
-  font-family: "Noto Serif KR", serif;
+body {
+  font-family: "NotoSansKR-DemiLight-Hestia";
 }
 
 ul,
@@ -11,25 +11,35 @@ p {
   padding: 0;
 }
 
-#gnb li a {
-  color: #333;
-  text-decoration: none;
-  font-size: medium;
-  font-weight: bolder;
-  padding: 2px;
+#hd {
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: 0.5s;
 }
-
-.sns li a {
-  color: #333;
-  text-decoration: none;
-  font-size: medium;
-  font-weight: bolder;
-  padding: 3px;
+#hd h1 {
+  transition: 0.5s;
+}
+#hd.scrolldown {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+#hd.scrolldown h1 {
+  height: 31px;
+}
+#hd.scrolldown h1 img {
+  height: 70px;
+  margin-top: -63px;
+}
+#hd.scrolldown .navbar-nav a {
+  font-size: 14px;
 }
 
 #basic-navbar-nav {
   justify-content: center;
   margin-top: 5px;
+  padding-bottom: 5px;
 }
 
 #basic-navbar-nav .navbar-nav ul {
@@ -38,18 +48,21 @@ p {
 
 #basic-navbar-nav .navbar-nav a {
   margin-top: 3px;
-  padding: 0 18px;
+  padding: 0 15px;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
+  letter-spacing: -0.085em;
 }
 
 h1 {
   text-align: center;
+  transition: 0.5s;
 }
 h1 a img {
-  height: 80px;
+  height: 55px;
+  transition: 0.5s;
 }
 
 .flo {
