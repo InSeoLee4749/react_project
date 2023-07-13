@@ -7,3 +7,7 @@
 .sw3 {
     height: 500px;
 }
+.title{
+    font-size: 24px;
+    letter-spacing: -.05em;
+}

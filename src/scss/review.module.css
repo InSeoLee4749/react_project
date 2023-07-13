@@ -1,3 +1,7 @@
 .box{
     text-align: center;
 }
+.title{
+    font-size: 24px;
+    letter-spacing: -.05em;
+}

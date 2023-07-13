@@ -9,10 +9,10 @@ export default function News(props) {
         <section id={props.idnm}>
             <div className={`container mt-5 ${news.news}`}>
                     <div>
-                        <h3 className="text-center">THe Body Shop's NEWS</h3>
+                        <h3 className={`text-center ${news.title}`}>THe Body Shop's NEWS</h3>
                     </div>
                     <div>
-                        <div className={`container p-0 mt-1 ${news.height}`}>
+                        <div className={`container p-0 mt-2 ${news.height}`}>
                             <Swiper
                                 spaceBetween={30}
                                 centeredSlides={true}

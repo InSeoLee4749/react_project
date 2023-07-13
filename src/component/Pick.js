@@ -9,7 +9,7 @@ export default function Pick(props) {
             <section id={props.idnm}>
                 <div className="mt-5">
                     <div>
-                        <h3 className="text-center">BEST PICK</h3>
+                        <h3 className={`text-center ${pick.title}`}>BEST PICK</h3>
                     </div>
                     <div className={`container p-0 ${pick.height}`}>
                         <Swiper

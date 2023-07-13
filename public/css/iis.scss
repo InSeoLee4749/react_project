@@ -23,7 +23,8 @@ p {
         transition: 0.5s;
     }
     &.scrolldown{
-        background-color: rgba(255,255,255,.85);
+        backdrop-filter: blur(15px);
+        background-color: rgba(255, 255, 255, 0.6);
         h1{
             height: 31px;
             img{
@@ -34,6 +35,11 @@ p {
         .navbar-nav{
             a{
                 font-size: 14px;
+                padding: 0 15px;
+                color: black;
+                line-height: 1;
+                letter-spacing: -0.085em;
+                
             }
         }
 
@@ -60,7 +66,6 @@ p {
             padding: 0 15px;
             display: block;
             font-size: 16px;
-            font-weight: 500;
             line-height: 1;
             letter-spacing: -0.085em;
         }
@@ -77,6 +82,18 @@ h1{
         }
     }
 }
+// banner 파트 //
+#banner{
+    .banner1{
+        background-image: url(../img/slider-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 700px;
+
+    }
+}
+
+
 
 // contact 파트 //
 .flo{

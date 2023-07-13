@@ -5,7 +5,7 @@ const hddata = {
             href: "bestpick",
         },
         {
-            title: "이벤트&캠페인",
+            title: "이벤트 & 캠페인",
             href: "event",
         },
         {

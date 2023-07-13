@@ -7,7 +7,7 @@ export default function Review(props) {
             <section  id={props.idnm}>
                 <div className="mt-5">
                     <div>
-                        <h3 className="text-center">BEST REVIEW</h3>
+                        <h3 className={`text-center ${review.title}`}>BEST REVIEW</h3>
                         <p className="text-center mt-1">직접 써보고 말하는 생생한 리얼 후기!</p>
                     </div>
                     <div className={`container d-flex mt-2 ${review.box}`}>

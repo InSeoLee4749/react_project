@@ -5,15 +5,15 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function Banner(props) {
     return (
-        <section>
+        <section id="banner">
             <div className={` ${banner.height}`}>
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
+                    // autoplay={{
+                    //     delay: 2500,
+                    //     disableOnInteraction: false,
+                    // }}
                     pagination={{
                         clickable: true,
                     }}
@@ -21,9 +21,10 @@ export default function Banner(props) {
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide className={`${banner.sw1}`}></SwiperSlide>
+                    <SwiperSlide className={`banner1 ${banner.sw1}`}></SwiperSlide>
                     <SwiperSlide className={`${banner.sw2}`}></SwiperSlide>
                     <SwiperSlide className={`${banner.sw3}`}></SwiperSlide>
+                    
                 </Swiper>
             </div>
         </section>
