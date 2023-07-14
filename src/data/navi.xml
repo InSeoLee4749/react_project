@@ -1,0 +1,22 @@
+<네비게이션>
+    <정보>
+        <title>베스트픽</title>
+        <link>bestpick</link>
+        <cls></cls>
+    </정보>
+    <정보>
+        <title>이벤트 & 캠페인</title>
+        <link>event</link>
+        <cls></cls>
+    </정보>
+    <정보>
+        <title>베스트리뷰</title>
+        <link>bestreview</link>
+        <cls></cls>
+    </정보>
+    <정보>
+        <title>상담하기</title>
+        <link>talk</link>
+        <cls></cls>
+    </정보>
+</네비게이션>

@@ -21,8 +21,8 @@ export default function Banner(props) {
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide className={`banner1 ${banner.sw1}`}></SwiperSlide>
-                    <SwiperSlide className={`${banner.sw2}`}></SwiperSlide>
+                    <SwiperSlide className={`banner1`}></SwiperSlide>
+                    <SwiperSlide className={`banner2`}></SwiperSlide>
                     <SwiperSlide className={`${banner.sw3}`}></SwiperSlide>
                     
                 </Swiper>
