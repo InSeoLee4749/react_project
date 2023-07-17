@@ -1,6 +1,9 @@
 .height {
     padding: 0;
-    height: 300px;
-    line-height: 300px;
     text-align: center;
+}
+
+.youtube{
+    min-width: none;
+    min-height: 315;
 }

@@ -71,16 +71,20 @@ h1 a img {
 }
 
 #banner .banner1 {
-  background-image: url(../img/slider-1.jpg);
+  background-image: url(../img/slider-2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
 }
 #banner .banner2 {
-  background-image: url(../img/slider-2.jpg);
+  background-image: url(../img/slider-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
+}
+
+.navbar-nav .nav-link.active {
+  color: #03534D !important;
 }
 
 .flo {
