@@ -11,10 +11,11 @@ export default function Pick(props) {
                     <div>
                         <h3 className={`text-center ${pick.title}`}>BEST PICK</h3>
                     </div>
-                    <div className={`container p-0 ${pick.height}`}>
+                    <div className={`container p-0 mt-3`}>
                         <Swiper
                             spaceBetween={30}
-                            centeredSlides={true}
+                            centeredSlides={false}
+                            slidesPerView={4}
                             pagination={{
                                 clickable: true,
                             }}
@@ -22,9 +23,32 @@ export default function Pick(props) {
                             modules={[Pagination, Navigation]}
                             className="mySwiper"
                         >
-                            <SwiperSlide className={`${pick.sw1}`}>slide1</SwiperSlide>
-                            <SwiperSlide className={`${pick.sw2}`}>slide2</SwiperSlide>
-                            <SwiperSlide className={`${pick.sw3}`}>slide3</SwiperSlide>
+                                <SwiperSlide className={`${pick.sw1}`}>
+                                    <div>
+                                        <img src="./img/pick-1.jpg" alt=""/>
+                                        <p className="text-center">루시어스 리치 샤워 크림</p>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide className={`${pick.sw2}`}>
+                                    <div>
+                                        <img src="./img/pick-1.jpg" alt=""/>
+                                        <p>루시어스 리치 샤워 크림</p>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide className={`${pick.sw3}`}>
+                                    <div>
+                                        <img src="./img/pick-1.jpg" alt=""/>
+                                        <p>루시어스 리치 샤워 크림</p>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide className={`${pick.sw4}`}>
+                                    <div>
+                                        <img src="./img/pick-1.jpg" alt=""/>
+                                        <p>루시어스 리치 샤워 크림</p>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide className={`${pick.sw5}`}>slide5</SwiperSlide>
+                                <SwiperSlide className={`${pick.sw6}`}>slide6</SwiperSlide>
                         </Swiper>
                     </div>
                 </div>

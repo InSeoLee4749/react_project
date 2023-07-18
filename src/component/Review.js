@@ -12,7 +12,7 @@ export default function Review(props) {
                     </div>
                     <div className={`container d-flex mt-2 ${review.box}`}>
                         <div>
-                            <img src="./img/product1.PNG" alt=""/>
+                            <img src="./img/review-1.jpg" alt=""/>
                             <p>루시어스 리치 샤워 크림</p>
                             <p>
                                 <i className="bi bi-star-fill"></i>
@@ -26,7 +26,7 @@ export default function Review(props) {
                             </div>
                         </div>
                         <div>
-                            <img src="./img/product1.PNG" alt=""/>
+                            <img src="./img/review-2.jpg" alt=""/>
                             <p>루시어스 리치 샤워 크림</p>
                             <p>
                                 <i className="bi bi-star-fill"></i>
@@ -40,7 +40,7 @@ export default function Review(props) {
                             </div>
                         </div>
                         <div>
-                            <img src="./img/product1.PNG" alt=""/>
+                            <img src="./img/review-3.jpg" alt=""/>
                             <p>루시어스 리치 샤워 크림</p>
                             <p>
                                 <i className="bi bi-star-fill"></i>

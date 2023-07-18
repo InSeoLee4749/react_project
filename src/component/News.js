@@ -30,13 +30,21 @@ export default function News(props) {
                                             <p>지구와 나를 위한 작은 실천 #ReturnRecycleRepeat</p>
                                         </div>
                                         <div className={`${news.sw1img}`}>
-                                            <img className={`${news.recy}`} src="./img/recycling.png" alt="" />
+                                            <img className={`${news.recy}`} src="./img/news.png" alt="" />
                                         </div>
                                     </div>
                                 </SwiperSlide>
-                                <SwiperSlide className={`${news.sw2}`}>
-
-                                </SwiperSlide>
+                                {/* <SwiperSlide className={`${news.sw2}`}>
+                                    <div className="d-flex justify-content-between align-items-center bg-white">
+                                        <div className={`${news.ment}`}>
+                                            <p>플라스틱 공병 수거 캠페인</p>
+                                            <p>지구와 나를 위한 작은 실천 #ReturnRecycleRepeat</p>
+                                        </div>
+                                        <div className={`${news.sw1img}`}>
+                                            <img className={`${news.news-1}`} src="./img/news-1.png" alt="" />
+                                        </div>
+                                    </div>
+                                </SwiperSlide> */}
                                 <SwiperSlide className={`${news.sw3}`}>
 
                                 </SwiperSlide>

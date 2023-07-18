@@ -1,11 +1,18 @@
 .sw1 {
-    height: 500px;
+    margin: 0 auto;
+    height: 50vh;
 }
 .sw2 {
-    height: 500px;
+    margin: 0 auto;
+    height: 50vh;
 }
 .sw3 {
-    height: 500px;
+    margin: 0 auto;
+    height: 50vh;
+}
+.sw4 {
+    margin: 0 auto;
+    height: 50vh;
 }
 .title{
     font-size: 24px;

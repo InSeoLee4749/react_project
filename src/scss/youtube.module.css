@@ -3,7 +3,12 @@
     text-align: center;
 }
 
-.youtube{
+/* .youtube{
     min-width: none;
     min-height: 315;
+} */
+
+.title{
+    font-size: 24px;
+    letter-spacing: -.05em;
 }
