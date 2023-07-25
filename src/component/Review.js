@@ -1,10 +1,12 @@
 import React from "react";
 import review from "../scss/review.module.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Navigation } from "swiper";
 
 export default function Review(props) {
     return (
         <>
-            <section  id={props.idnm}>
+            {/* <section  id={props.idnm}>
                 <div className="mt-5">
                     <div>
                         <h3 className={`text-center ${review.title}`}>BEST REVIEW</h3>
@@ -56,7 +58,41 @@ export default function Review(props) {
                     </div>
                 </div>
 
-            </section>
+            </section> */}
+            <div className={`${review.content} `}>
+                <Swiper
+                    spaceBetween={30}
+                    centeredSlides={true}
+                    slidesPerView={4}
+                    pagination={{
+                                clickable: true,
+                            }}
+                    loop={true}
+                    navigation={true}
+                    modules={[Pagination, Navigation]}
+                    className="mySwiper"
+                    >
+                    <SwiperSlide>
+                        <div>
+                            <p>저자극 비건 선크림</p>
+                            <p>Vita Tone Up Sun Cream</p>
+                            <p>비타 톤업 선크림</p>
+                        </div>
+                        <div>
+                            <a href=""><img className={`${review.img}`} src="./img/review_1.png" alt="" /></a>
+                        </div>
+                        <div className="row">
+                            <span>50ml</span>
+                            <span>21,000</span>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>Slide 2</SwiperSlide>
+                    <SwiperSlide>Slide 3</SwiperSlide>
+                    <SwiperSlide>Slide 4</SwiperSlide>
+                </Swiper>
+                <div></div>
+            </div>
         </>
+        
     );
 }

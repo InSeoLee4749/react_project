@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../component/Banner";
+import Service from "../component/Service"
 import Solution from "../component/Solution";
 import Pick from "../component/Pick";
 import Youtube from "../component/Youtube";
@@ -12,12 +13,13 @@ export default function Content(props) {
     return (
         <>
             <Banner></Banner>
-            <Solution></Solution>
-            <Pick  idnm={props.dbsrc.gnb[0].href}></Pick>
-            <Youtube></Youtube>
-            <News  idnm={props.dbsrc.gnb[1].href}></News>
+            <Service></Service>
             <Review  idnm={props.dbsrc.gnb[2].href}></Review>
-            <Contact  idnm={props.dbsrc.gnb[3].href}></Contact>
+            {/* <Solution></Solution> */}
+            <Pick  idnm={props.dbsrc.gnb[0].href}></Pick>
+            {/* <Youtube></Youtube> */}
+            {/* <News  idnm={props.dbsrc.gnb[1].href}></News> */}
+            {/* <Contact  idnm={props.dbsrc.gnb[3].href}></Contact> */}
         </>
     );
 }

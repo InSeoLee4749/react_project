@@ -23,7 +23,8 @@ export default function Banner(props) {
                 >
                     <SwiperSlide className={`banner1`}></SwiperSlide>
                     <SwiperSlide className={`banner2`}></SwiperSlide>
-                    <SwiperSlide className={`${banner.sw3}`}></SwiperSlide>
+                    <SwiperSlide className={`banner3`}></SwiperSlide>
+                    
                     
                 </Swiper>
             </div>

@@ -1,0 +1,40 @@
+.section{
+    padding-top: 100px;
+}
+.inner{
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+}
+.h2{
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+.p{
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -2px;
+}
+.content{
+    margin-top: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0 72px;
+    text-align: center;
+}
+.img{
+    width: 288px;
+    height: 288px;
+}
+.tit{
+    margin-top: 24px;
+    font-weight: 700;
+}
+.explain{
+    margin-top: 8px;
+    line-height: 23px;
+}
