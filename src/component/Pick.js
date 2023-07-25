@@ -105,23 +105,23 @@ export default function Review(props) {
                     </SwiperSlide>
                     <SwiperSlide className={`${review.swiperslide}`}>
                         <div className={`${review.info_top}`}>
-                            <p className={`${review.pplen}`}>저자극 비건 선크림</p>
-                            <p className={`${review.emname}`}>Vita Tone Up Sun Cream</p>
-                            <p className={`${review.krname}`}>비타 톤업 선크림</p>
+                            <p className={`${review.pplen}`}>티트리 샴푸와 컨디셔너</p>
+                            <p className={`${review.emname}`}>TEA TREE HAIRCARE SET</p>
+                            <p className={`${review.krname}`}>티트리 헤어케어 세트</p>
                         </div>
                         <div className={`${review.imgdiv}`}>
                             <a href=""><img className={`${review.img}`} src="./img/3.png" alt="" /></a>
                         </div>
                         <div className={`${review.info_box} row`}>
-                            <span>50ml</span>
-                            <span>21,000</span>
+                            <span>400ml+250ml</span>
+                            <span>37,000</span>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className={`${review.swiperslide}`}>
                         <div className={`${review.info_top}`}>
-                            <p className={`${review.pplen}`}>저자극 비건 바디케어</p>
-                            <p className={`${review.emname}`}>SHOWER GEL MORINGA</p>
-                            <p className={`${review.krname}`}>모링가 대용량 샤워젤</p>
+                            <p className={`${review.pplen}`}>티트리성분의 토너와 오일</p>
+                            <p className={`${review.emname}`}>TEA TREE HERO SET</p>
+                            <p className={`${review.krname}`}>티트리 히어로 세트</p>
                         </div>
                         <div className={`${review.imgdiv}`}>
                             <a href=""><img className={`${review.img}`} src="./img/4.png" alt="" /></a>
@@ -133,16 +133,16 @@ export default function Review(props) {
                     </SwiperSlide>
                     <SwiperSlide className={`${review.swiperslide}`}>
                     <div className={`${review.info_top}`}>
-                            <p className={`${review.pplen}`}>저자극 비건 선크림</p>
-                            <p className={`${review.emname}`}>Vita Tone Up Sun Cream</p>
-                            <p className={`${review.krname}`}>비타 톤업 선크림</p>
+                            <p className={`${review.pplen}`}>보습과 아몬드향의 만남</p>
+                            <p className={`${review.emname}`}>BODY LOTION ALMOND MILK</p>
+                            <p className={`${review.krname}`}>아몬드 밀크 바디 로션</p>
                         </div>
                         <div className={`${review.imgdiv}`}>
                             <a href=""><img className={`${review.img}`} src="./img/5.png" alt="" /></a>
                         </div>
                         <div className={`${review.info_box} row`}>
-                            <span>50ml</span>
-                            <span>21,000</span>
+                            <span>200ml</span>
+                            <span>24,000</span>
                         </div>
                     </SwiperSlide>
 
