@@ -3,71 +3,24 @@ import solution from "../scss/solution.module.css";
 
 export default function Solution(props) {
     return (
-        <>
-            <div className={`container bg-light mt-5`} id={props.idnm}>
-                <div className="d-flex justify-content-between p-1">
-                    <div>
-                        <div className="p-3">
-                            피부 고민별 The Body Shop의 솔루션
-                            <div className={`bg-dark ${solution.from}`}>
-                                <p className={`${solution.pw}`}>폼테그 영역</p>
-                            </div>
-                        </div>
-                        <div className="p-3">
-                            Thd Body Shop's 추천 아이템
-                            <div className="pt-2 row">
-                                <div className="border border-2">
-                                    <ul className="d-flex">
-                                        <div>
-                                            <li>
-                                                <a href="">
-                                                    #예민한 두피를 위한 진저샴푸
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    #라임추출물과 플로럴한 향의 만남
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    #촉촉하게 스며드는 시어버터
-                                                </a>
-                                            </li>
-                                        </div>
-                                        <div className="mx-3">
-                                            <li>
-                                                <a href="">
-                                                    #새벽의 이슬을 머금은 블루
-                                                    머스크
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    #가볍고 밀키한 샤워크림
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    #섬세한 모링가를 담은 크림 바디
-                                                    스크럽
-                                                </a>
-                                            </li>
-                                        </div>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="p-3">
-                        당신을 위한 더바디의 솔루션 제품은?
+        <section className={`${solution.solution}`}>
+            <div className={`${solution.section}`}>
+                <div className={`${solution.inner}`}>
+                    <div className={`${solution.wrap}`}>
                         <div>
-                            <div className={`${solution.reimg}`}>solution결과 img</div>
+                            <span className={`${solution.span}`}>"두피와 모발을 위한 최적의 솔루션"</span>
+                            <h3 className={`${solution.h3}`}>
+                                The Optimal Solution<br></br>For The Scals And Hair
+                            </h3>
+                            <p className={`${solution.p}`}>
+                                역동적이면서 균형있는 사이클로 채워지는 본연의 힘,<br></br>우리의 모발과 피부가 치유될 수 있는 충분한 시간
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </>
+        </section>
+            
+        
     );
 }
