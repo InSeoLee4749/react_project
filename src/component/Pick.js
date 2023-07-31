@@ -123,15 +123,15 @@ export default function Review(props) {
                     </SwiperSlide>
                     <SwiperSlide className={`${review.swiperslide}`}>
                     <div className={`${review.info_top}`}>
-                            <p className={`${review.pplen} brand`}>보습과 아몬드향의 만남</p>
-                            <p className={`${review.emname}`}>BODY LOTION ALMOND MILK</p>
-                            <p className={`${review.krname}`}>아몬드 밀크 바디 로션</p>
+                            <p className={`${review.pplen} brand`}>촉촉한 미스트</p>
+                            <p className={`${review.emname}`}>BODY MIST ZESTY LIME BL</p>
+                            <p className={`${review.krname}`}>제스티 라임 블라썸 바디미스트</p>
                         </div>
                         <div className={`${review.info_box} row`}>
-                            <span>24,000</span>
+                            <span>21,000</span>
                         </div>
                         <div className={`${review.imgdiv}`}>
-                            <a href=""><img className={`${review.img}`} src="./img/5.png" alt="" /></a>
+                            <a href=""><img className={`${review.img}`} src="./img/2.png" alt="" /></a>
                         </div>
                         
                     </SwiperSlide>

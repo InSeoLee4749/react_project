@@ -42,3 +42,21 @@
     opacity: 0.8;
     margin-top: 25px;
 }
+.more{
+    color: white;
+    text-decoration: none;
+}
+.quickview{
+    position: relative;
+    display: table;
+}
+.quickview::before{
+    background-color: #ffffff50;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    content: "";
+    z-index: 0;
+}

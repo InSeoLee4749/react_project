@@ -45,6 +45,20 @@ export default function Service(props) {
                     </li>
                 </ul>
             </div>
+            <div className={`${service.quicknavi}`}>
+                <ul>
+                    <li className={`${service.kakao}`}>
+                        <a href="https://accounts.kakao.com/login/?continue=http%3A%2F%2Fpf.kakao.com%2F_bHjRK%2Fchat#login" className={`${service.kakao_a}`} target="_blank">
+                            <img src="https://vivelab.kr/web/2022/kakao.svg" alt="" />
+                        </a>
+                    </li>
+                    <li className={`${service.btntop}`}>
+                        <a href="#banner" className={`${service.btn_a}`}>
+                            <img src="https://vivelab.kr/web/2022/up_arrow_white.svg" alt="" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
             
         

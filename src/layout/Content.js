@@ -4,7 +4,6 @@ import Service from "../component/Service"
 import Pick from "../component/Pick";
 import About from "../component/About"
 import Solution from "../component/Solution"
-import Youtube from "../component/Youtube";
 import Contact from "../component/Contact";
 
 export default function Content(props) {
@@ -16,7 +15,6 @@ export default function Content(props) {
             <Pick  idnm={props.dbsrc.gnb[2].href}></Pick>
             <About></About>
             <Solution></Solution>
-            {/* <Youtube></Youtube> */}
             {/* <Contact  idnm={props.dbsrc.gnb[3].href}></Contact> */}
         </>
     );

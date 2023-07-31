@@ -32,7 +32,7 @@ export default function About(props) {
                             기업이 세상을 만듭니다.<br></br>우리가 상상하는 그래도 사회를 바꾸어갈 능력이 있습니다. 
                         </p>
                     </SwiperSlide>
-                    <SwiperSlide className="slide2">
+                    <SwiperSlide className={`${about.slide2}`}>
                         <a href=""><img src="./img/about2.jpg" alt="" className={`${about.img2}`}/></a>
                         <h3 className={`${about.title}`}>더바디샵 역사</h3>
                         <p className={`${about.explain}`}>

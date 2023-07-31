@@ -38,3 +38,29 @@
     margin-top: 8px;
     line-height: 23px;
 }
+
+.quicknavi{
+    z-index: 10;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+}
+.quicknavi a{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.kakao{
+    margin-bottom: 0.5rem;
+}
+.kakao_a{
+    background-color: #F4DB4D;
+}
+.btn_a{
+    background-color: #004038;
+}
