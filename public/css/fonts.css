@@ -1,41 +1,5 @@
-/* @font-face {
-	font-family:"NotoSansKR-DemiLight-Hestia";
-	font-weight:normal;
-	font-style:normal;
-	src:local("��"), url("https://fonts.tonystreet.com/fonts/noto/NotoSansKR-DemiLight-Hestia.eot?#iefix") format("eot"), url("https://fonts.tonystreet.com/fonts/noto/NotoSansKR-DemiLight-Hestia.woff") format("woff");
-}
-@font-face {
-	font-family:"NotoSansKR-Medium-Hestia";
-	font-weight:normal;
-	font-style:normal;
-	src:local("��"), url("https://fonts.tonystreet.com/fonts/noto/NotoSansKR-Medium-Hestia.eot?#iefix") format("eot"), url("https://fonts.tonystreet.com/fonts/noto/NotoSansKR-Medium-Hestia.woff") format("woff");
-}
-@font-face {
-	font-family:"NotoSansKR-Bold-Hestia";
-	font-weight:normal;
-	font-style:normal;
-	src:local("��"), url("https://fonts.tonystreet.com/fonts/noto/NotoSansKR-Bold-Hestia.eot?#iefix") format("eot"), url("https://fonts.tonystreet.com/fonts/noto/NotoSansKR-Bold-Hestia.woff") format("woff");
-}
-@font-face {
-	font-family:"Lato-Regular";
-	font-weight:normal;
-	font-style:normal;
-	src:local("��"), url("https://fonts.tonystreet.com/fonts/lato/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("https://fonts.tonystreet.com/fonts/lato/Lato-Regular.woff") format("woff");
-}
-@font-face {
-	font-family:"Lato-Black";
-	font-weight:normal;
-	font-style:normal;
-	src:local("��"), url("https://fonts.tonystreet.com/fonts/lato/Lato-Black.eot?#iefix") format("embedded-opentype"), url("https://fonts.tonystreet.com/fonts/lato/Lato-Black.woff") format("woff");
-}
-@font-face {
-	font-family:"Lato-Bold";
-	font-weight:normal;
-	font-style:normal;
-	src:local("��"), url("https://fonts.tonystreet.com/fonts/lato/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("https://fonts.tonystreet.com/fonts/lato/Lato-Bold.woff") format("woff");
-} */
 
 @font-face {
-	font-family: ;
-	src: url();
+	font-family: "Montserrat";
+	src: url(../font/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
