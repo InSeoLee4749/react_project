@@ -1,3 +1,8 @@
+@media(max-width:800px) {
+    .p{
+        display: none;
+    }
+}
 .solution{
     padding-top: 100px;
 }

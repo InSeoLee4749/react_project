@@ -1,4 +1,15 @@
-
+@media(max-width:800px) {
+    .content{
+        flex-direction: column;
+        margin: 0 100px 0 100px;
+    }
+    .content li{
+        padding-top: 30px;
+    }
+    .quicknavi{
+        display: none;
+    }
+}
 
 .section{
     padding-top: 100px;

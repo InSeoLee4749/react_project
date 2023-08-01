@@ -1,3 +1,19 @@
+@media(max-width:800px) {
+    .aleft1{
+        display: none;
+    }
+    .sns{
+        display: flex;
+    }
+    .inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        padding-top: 30px;
+    }
+}
+
 ul,li,a{
     list-style: none;
     text-decoration: none;

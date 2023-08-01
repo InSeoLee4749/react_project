@@ -14,24 +14,25 @@ export default function Ft(props) {
                                 <div className={`${ft.sns3}`}><a href=""></a></div>
                                 <div className={`${ft.sns4}`}><a href=""></a></div>
                             </div>
-                            <div className={`${ft.left1}`}>
-                                비에스케이코퍼레이션<span></span>대표이사 : 오미경,나상돈
-                                <br></br>주소 : 서울시 강남구 학동로 401 13층
-                                <br></br><b>TEL : 080-759-7700</b><span></span><b>E-MAIL : webmaster@thebodyshop.co.kr</b>
-                            </div>
-                            <div>
-                                <ul className={`${ft.left2}`}>
-                                    <li><a href="">이용약관</a></li>
-                                    <li><a href="">개인정보처리방침</a></li>
-                                    <li><a href="">이용안내</a></li>
-                                    
-                                </ul>
-                            </div>
-                            <div>
-                                <br></br><p>COPYRIGHT 2023 THEBODYSHOP. ALL RIGHT RESERVED</p>
+                            <div className={`${ft.aleft1}`}>
+                                <div className={`${ft.left1}`}>
+                                    비에스케이코퍼레이션<span></span>대표이사 : 오미경,나상돈
+                                    <br></br>주소 : 서울시 강남구 학동로 401 13층
+                                    <br></br><b>TEL : 080-759-7700</b><span></span><b>E-MAIL : webmaster@thebodyshop.co.kr</b>
+                                </div>
+                                <div>
+                                    <ul className={`${ft.left2}`}>
+                                        <li><a href="">이용약관</a></li>
+                                        <li><a href="">개인정보처리방침</a></li>
+                                        <li><a href="">이용안내</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div>
+                                    <br></br><p>COPYRIGHT 2023 THEBODYSHOP. ALL RIGHT RESERVED</p>
+                                </div>
                             </div>
                         </div>
-                        
                         <div className={`${ft.right}`}>
                             <div className={`${ft.cs}`}>
                                 <h1>Customer Center</h1>

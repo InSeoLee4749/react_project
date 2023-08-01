@@ -1,20 +1,20 @@
 const hddata = {
     gnb: [
         {
-            title: "베스트 픽",
-            href: "bestpick",
+            title: "Pormotion",
+            href: "service",
         },
         {
-            title: "이벤트 & 캠페인",
-            href: "event",
+            title: "Best pick",
+            href: "pick",
         },
         {
-            title: "베스트 리뷰",
-            href: "bestreview",
+            title: "About",
+            href: "about",
         },
         {
-            title: "상담하기",
-            href: "talk",
+            title: "Solution",
+            href: "solution",
         },
     ],
 };
