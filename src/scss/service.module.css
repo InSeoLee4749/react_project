@@ -1,3 +1,5 @@
+
+
 .section{
     padding-top: 100px;
 }
@@ -44,7 +46,17 @@
     bottom: 20px;
     right: 20px;
     position: fixed;
+
 }
+/* .scroll .quicknavi{
+    z-index: 10;
+    bottom: 20px;
+    right: 20px;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 1s;
+} */
+
 .quicknavi a{
     width: 70px;
     height: 70px;
